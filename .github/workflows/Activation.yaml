@@ -13,7 +13,7 @@ jobs:
         id: getManualLicenseFile
         uses: game-ci/unity-request-activation-file@571bc3629d003b596fd7d30c181736816782585a
         with:
-          unityVersion: 5.0.0f4
+          unityVersion: 2019.2.11f1
           
       - name: Expose as artifact
         uses: actions/upload-artifact@v6
