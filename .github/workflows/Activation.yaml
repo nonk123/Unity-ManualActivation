@@ -11,7 +11,7 @@ jobs:
     
       - name: Request manual activation file
         id: getManualLicenseFile
-        uses: game-ci/unity-request-activation-file@v2
+        uses: game-ci/unity-request-activation-file@571bc3629d003b596fd7d30c181736816782585a
         with:
           unityVersion: 5.0.0f4
           
